@@ -1,0 +1,15 @@
+{
+"language":"zh-hans",
+"plugins": [
+		"-search",
+		"-lunr",
+		"search-plus",
+		"splitter",
+        "chapter-fold",
+		"pageview-count",
+		"ancre-navigation",
+		"copy-code-button",
+		 "expandable-chapters-small"
+    ]
+	
+}

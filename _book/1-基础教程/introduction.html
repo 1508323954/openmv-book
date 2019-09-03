@@ -1,0 +1,353 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>OpenMV简介 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="quickstart.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基础教程</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    OpenMV简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="quickstart.html">
+            
+                <a href="quickstart.html">
+            
+                    
+                    OpenMV快速上手教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="pythonstart.md">
+            
+                <span>
+            
+                    
+                    python入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">官方例程</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../2-官方例程/HelloWorld.html">
+            
+                <a href="../2-官方例程/HelloWorld.html">
+            
+                    
+                    HelloWorld例程详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">官方文档</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../4-官方文档/quickrefdocs.md">
+            
+                <span>
+            
+                    
+                    快速参考文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >OpenMV简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#openmv&#x7B80;&#x4ECB;"><b></b>OpenMV&#x7B80;&#x4ECB;</a></li></ul></div><a href="#openmv&#x7B80;&#x4ECB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="openmv&#x7B80;&#x4ECB;"><a name="openmv&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#openmv&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>OpenMV&#x7B80;&#x4ECB;</h1>
+<p>OpenMV&#x662F;&#x4E00;&#x4E2A;&#x4F4E;&#x6210;&#x672C;&#xFF0C;&#x53EF;&#x6269;&#x5C55;&#x7684;&#xFF0C;&#x57FA;&#x4E8E;Python&#x7684;&#x673A;&#x5668;&#x89C6;&#x89C9;&#x6A21;&#x5757;&#xFF0C;&#x65E8;&#x5728;&#x6210;&#x4E3A;&#x201C; &#x673A;&#x5668;&#x89C6;&#x89C9;&#x7684;Arduino &#x201D;&#x3002; &#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x9AD8;&#x7EA7;&#x8BED;&#x8A00;Python&#x811A;&#x672C;&#xFF08;&#x51C6;&#x786E;&#x7684;&#x8BF4;&#x662F; MicroPython &#xFF09;&#xFF0C;&#x800C;&#x4E0D;&#x662F;C/C++&#x8BED;&#x8A00;&#xFF0C;&#x5F88;&#x8F7B;&#x677E;&#x7684;&#x5B8C;&#x6210;&#x673A;&#x5668;&#x89C6;&#x89C9;&#xFF08;Machine Vision&#xFF09;&#x5E94;&#x7528;&#x3002; Python&#x7684;&#x9AD8;&#x7EA7;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x4F7F;&#x4F60;&#x5F88;&#x5BB9;&#x6613;&#x5728;&#x673A;&#x5668;&#x89C6;&#x89C9;&#x7B97;&#x6CD5;&#x4E2D;&#x5904;&#x7406;&#x590D;&#x6742;&#x7684;&#x8F93;&#x51FA;&#x3002;&#x800C;&#x4E14;&#x4F60;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x5B8C;&#x5168;&#x63A7;&#x5236;OpenMV&#xFF0C;&#x5305;&#x62EC;IO&#x5F15;&#x811A;&#x3002; &#x4F60;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x7684;&#x4F7F;&#x7528;&#x5916;&#x90E8;&#x4E2D;&#x65AD;&#x89E6;&#x53D1;&#x62CD;&#x6444;&#x6216;&#x8005;&#x6267;&#x884C;&#x7B97;&#x6CD5;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x7B97;&#x6CD5;&#x7684;&#x7ED3;&#x679C;&#x7528;&#x6765;&#x63A7;&#x5236;IO&#x5F15;&#x811A;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 首页">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="quickstart.html" class="navigation navigation-next " aria-label="Next page: OpenMV快速上手教程">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"OpenMV简介","level":"2.1","depth":1,"next":{"title":"OpenMV快速上手教程","level":"2.2","depth":1,"path":"1-基础教程/quickstart.md","ref":"1-基础教程/quickstart.md","articles":[]},"previous":{"title":"首页","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","search-plus","splitter","chapter-fold","pageview-count","ancre-navigation","copy-code-button","expandable-chapters-small","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"splitter":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"ancre-navigation":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"1-基础教程/introduction.md","mtime":"2019-09-03T03:39:47.129Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-03T06:18:16.416Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
